@@ -1,17 +1,21 @@
-.base-block{
-    width: 600px;
-    height: 600px;
-    background-color: purple;
+.badge{
+    width: 100px;
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+    margin: 20px;
+    border-radius: 5px;
     position: relative;
 }
-.base-block .block{
-    height: 50px;
-    width: 100px;
-    background-color: aquamarine;
-}
-.block-1{
+.badge .label{
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 0;
+    top: 0;
+    transform: translate(50%, -50%);
+    padding: 1px 5px;
+    border: 1px solid white;
 }
