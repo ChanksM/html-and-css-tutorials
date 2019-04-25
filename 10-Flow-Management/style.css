@@ -1,0 +1,27 @@
+main{
+    width: 600px;
+    margin: auto;
+}
+
+header, .col-1, .col-2, .col-3, footer{
+    height: 150px;
+    background-color: blue;
+    margin-bottom: 30px;
+}
+header{
+    width: 100%;
+}
+.col-1, .col-2, .col-3{
+    width: 250px;
+}
+.col-1{
+    float: left;
+}
+.col-2{
+    float: right;
+}
+.col-3{
+    width: 400px;
+    clear: both;
+    margin: 0 auto 30px;
+}
