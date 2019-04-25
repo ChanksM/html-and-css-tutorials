@@ -3,25 +3,32 @@ main{
     margin: auto;
 }
 .row div{
-    height: 150px;
+    min-height: 150px;
+    margin-bottom: 30px;
     background-color: blue;
-    margin: 0 30px 30px 0;
 }
-
-.col-1 {
+.col-1{
     width: 180px;
     float: left;
-}
-.col-3{
-    width: 100%;
+    margin-right: 30px;
 }
 .row {
     clear: both;
 }
-.row div:last-child {
+.solid {
+    background-color: blue;
+}
+#row-2{
+    min-height: 330px;
+    float: right;
     margin-right: 0;
 }
 .col-2 {
     width: 390px;
+}
+.row-left {
     float: left;
+}
+.row .right{
+    float: right;
 }
