@@ -1,0 +1,25 @@
+.wrapper{
+    width: 600px;
+    margin: auto;
+}
+.cell {
+    min-height: 100px;
+    background-color: blue;
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header, .col-1, .col-2, .footer{
+    flex-grow: 1; 
+}
+.row{
+    margin: auto;
+}
+.col-3{
+    width: 60%;
+    margin: 10px auto;
+}
