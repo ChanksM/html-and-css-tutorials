@@ -13,13 +13,9 @@
     justify-content: space-between;
 }
 
-.header, .col-1, .col-2, .footer{
+.header, .col-1, .col-2, .col-3, .footer{
     flex-grow: 1; 
 }
 .row{
     margin: auto;
-}
-.col-3{
-    width: 60%;
-    margin: 10px auto;
 }
