@@ -16,3 +16,7 @@
 .col-2{
     flex-grow: 2;
 }
+.col{
+    display: flex;
+    flex-direction: column;
+}
