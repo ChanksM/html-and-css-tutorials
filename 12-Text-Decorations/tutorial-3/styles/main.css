@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+footer{
+    margin-top: 20px;
+}
+.top{
+    background-color: #222533;
+}
+.bottom{
+    background-color: #171D22;
+}
+.wrap{
+    width: 1080px;
+    margin: auto;
+    display: flex;
+}
+.top .wrap div{
+    width: 270px;
+    margin-right: 30px;
+}
+.top .wrap div:last-child{
+    margin-right: 0;
+}
+.top .wrap h3{
+    font-family: "PT sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 37px;
+    text-transform: uppercase;
+}
+.top .wrap h3::after{
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: #1ABC9C;
+    display: block;
+}
+.top .wrap li{
+    display: flex;
+    flex-direction: column;
+}
+.top .wrap li::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: #46515C;
+    display: block;
+    margin: 10px 0;
+}
+.top .wrap li:last-child::after{
+    display: none;
+}
+.top .wrap li:first-child::after{
+    display: block;
+}
+.top .wrap li a{
+    font-family: "PT sans";
+    font-size: 16px;
+    line-height: 24px;
+    color: #ECF0F1;
+}
+.top .wrap li a:hover{
+    color: #1ABC9C;
+}
+.top .wrap span{
+    font-family: "PT sans";
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+}
+.wrap .notes p{
+    margin: 17px 0 20px 0;
+    font-family: "PT sans";
+    font-size: 14px;
+    line-height: 24px;
+    color: #A1B1BC;
+}
+.wrap .notes a{
+    font-family: "PT sans";
+    font-weight: 700;
+    color: #1ABC9C;
+    text-transform: uppercase;
+}
+.bottom .wrap{
+    padding: 30px 0;
+}
+.bottom .wrap p{
+    font-family: "PT sans";
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+}
+.bottom .wrap p a{
+    font-family: "PT sans";
+    color: #1ABC9C;
+}
